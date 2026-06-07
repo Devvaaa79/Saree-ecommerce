@@ -3,7 +3,7 @@ import secrets
 from fastapi import FastAPI, Depends, HTTPException, status, Form, Response, BackgroundTasks
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.middleware.cors import CORSMiddleware
-from sqlalchemy import create_backend, create_engine, Column, Integer, String, Float, Boolean, Text, ForeignKey, DateTime
+from sqlalchemy import create_backend, Column, Integer, String, Float, Boolean, Text, ForeignKey, DateTime
 from sqlalchemy.orm import declarative_base, sessionmaker, Session
 from datetime import datetime
 
